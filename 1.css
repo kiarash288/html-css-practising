@@ -1,0 +1,115 @@
+body{
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #f9f9f9;
+
+}
+header{
+    color: white;
+      background-color: #222;
+      text-align: center;
+      padding: 20px;
+      
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+    ;
+    padding-right: 0;
+    
+    
+    gap:20px;
+}
+
+
+nav li:hover{
+    color: #f39c12;
+    cursor: pointer;
+}
+.intro{
+    text-align: center;
+    background-color: #fff;
+}
+.tamas{
+    background-color: #f39c12;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    border: #f39c12;
+    border-radius: 10px;
+    font-family: 'Vazirmatn';
+    cursor: pointer;
+    
+}
+.projects{
+    background-color: #eee;
+    text-align: center;
+    height: 260px;
+    
+}
+.projects-card{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-family: 'Vazirmatn', sans-serif;
+    padding-bottom: 5px;
+
+}
+.card{
+background-color: #fff;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  border-radius: 10px;
+  gap: 10px;
+  cursor: pointer;
+
+}
+pre{
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: center;
+    padding-left:80px;
+    
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+input,textarea{
+    border-radius: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    
+}
+.contact{
+    background-color: #fff;
+    text-align: center;
+    justify-items: center;
+    
+}
+.submit{
+    background-color: #27ae60;
+    border: none;
+    color: white;
+    border-radius: 10px;
+     padding: 10px;
+}
+footer{
+     background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top:40px;
+}
